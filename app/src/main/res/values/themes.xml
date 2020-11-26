@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="ThemeCalcularIMC1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D81B60</item>
+        <item name="colorPrimaryVariant">#D81B60</item>
+        <item name="colorOnPrimary">#D81B60</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@drawable/btn_custon</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeCalcularIMC" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryVariant">#FF0000</item>
+        <item name="colorOnPrimary">@android:color/background_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">?attr/colorPrimaryVariant</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#E6F5DEDD</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

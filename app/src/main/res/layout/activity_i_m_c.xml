@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/calculator"
+    android:backgroundTint="#E6F5DEDD"
+    android:backgroundTintMode="screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".IMCActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="@string/calculadora_imc"
+        android:textColor="#000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/digite_seu_nome"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edtIMCNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_bg"
+        android:importantForAutofill="no"
+        android:inputType="textAutoComplete"
+        android:padding="10dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/digite_seu_peso_em_kg"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edtIMCPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_bg"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/digite_sua_altura_em_cm"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edtIMCAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_bg"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/escolha_seu_g_nero"
+        android:textColor="#000" />
+
+    <Spinner
+        android:id="@+id/spnIMCGenero"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_bg"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnIMCCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_custon"
+        android:onClick="OnClick"
+        android:text="@string/calcular"
+        android:textColor="#fafafa"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btnIMCSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/btn_custon"
+        android:visibility="invisible"
+        android:onClick="OnClick"
+        android:text="@string/salvar"
+        android:textColor="#fafafa"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/tevIMCFaixa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/resultado"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tevIMCResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="60sp" />
+
+</LinearLayout>

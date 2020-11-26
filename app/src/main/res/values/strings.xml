@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calcular IMC</string>
+    <string name="calculadora_imc">Calculadora IMC</string>
+    <string name="digite_sua_altura_em_cm">Digite sua altura em Cm</string>
+    <string name="digite_seu_peso_em_kg">Digite seu peso em Kg</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">RESULTADO</string>
+    <string name="escolha_seu_g_nero">Escolha seu gênero</string>
+    <string name="salvar">Salvar</string>
+    <string name="faixa">Faixa</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="nome">Nome</string>
+    <string name="imc">imc</string>
+    <string name="sair">sair</string>
+    <string name="altura">altua</string>
+    <string name="kg">Kg</string>
+    <string name="g_nero">gênero</string>
+</resources>
